@@ -1,0 +1,32 @@
+
+POKÉMON ANALYSIS REPORT (2025)
+==============================
+
+This report provides a comprehensive analysis of Pokémon data collected from the PokeAPI in 2025.
+It explores the relationships between key battle statistics (HP, Attack, Defense, Speed)
+and compares their distributions across Pokémon types.
+
+A total of 20 Pokémon were analyzed, covering 6 unique types.
+Each Pokémon’s overall Power Score was calculated as the sum of HP, Attack, and Defense.
+
+🔥 The strongest Pokémon found in this dataset is *Blastoise* (Fairy-type)
+with a total Power Score of 262 (HP: 79, Attack: 83, Defense: 100).
+
+Average statistics per type are summarized below (see “figures/summary_by_type.csv”).
+The bar chart 'avg_power_by_type.png' visualizes which Pokémon types tend to dominate in terms of raw power —
+for instance, Dragon- and Rock-type Pokémon often show higher total scores compared to Fairy or Grass types.
+
+The correlation heatmap ('correlation_heatmap.png') highlights the relationships between combat stats.
+It suggests a moderate positive correlation between Attack and Defense,
+indicating that Pokémon with strong offensive abilities often have balanced defenses as well.
+
+Meanwhile, the scatterplot ('power_vs_speed.png') reveals an interesting trade-off between Power and Speed.
+Fast Pokémon (like Electric types) often sacrifice total power for agility,
+while slower ones (like Rock or Ground types) have much higher combined HP and Attack.
+
+Finally, the pairplot provides a full statistical overview, showing how each attribute interacts with others.
+These relationships can guide future modeling — for instance, predicting power levels or identifying outliers
+based on multiple metrics.
+
+In summary, this 2025 Pokémon analysis demonstrates how data visualization and aggregation
+can uncover trends within large-scale character datasets.
